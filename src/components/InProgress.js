@@ -9,6 +9,7 @@ class App extends Component {
                     <h1>
                         In Progress
                     </h1>
+                    <div>Дела в процессе...</div>
                 </header>
             </div>
         );

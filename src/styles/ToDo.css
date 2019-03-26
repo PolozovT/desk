@@ -1,6 +1,11 @@
 .ToDo {
     text-align: center;
-    width: 30%;
+    width: auto;
+    height: auto;
+    min-height: 50px;
+    margin: auto;
+    display: inline-block;
+    padding: 10px
 }
 
 .ToDo-header {

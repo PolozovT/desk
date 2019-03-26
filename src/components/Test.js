@@ -9,6 +9,9 @@ class App extends Component {
                     <h1>
                         Test
                     </h1>
+                    <div>
+                        Список сделанного...
+                    </div>
                 </header>
             </div>
         );

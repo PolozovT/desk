@@ -9,6 +9,7 @@ class App extends Component {
                     <h1>
                         ToDo
                     </h1>
+                    <div>План дел...</div>
                 </header>
             </div>
         );
