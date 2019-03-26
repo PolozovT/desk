@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import '../styles/ToDo.css';
+import '../styles/Test.css';
 
 class App extends Component {
     render() {
         return (
-            <div className="ToDo">
-                <header className="ToDo-header">
+            <div className="Test">
+                <header className="Test-header">
                     <h1>
-                        ToDo
+                        Test
                     </h1>
                 </header>
             </div>

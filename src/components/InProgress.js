@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import '../styles/ToDo.css';
+import '../styles/InProgress.css';
 
 class App extends Component {
     render() {
         return (
-            <div className="ToDo">
-                <header className="ToDo-header">
+            <div className="InProgress">
+                <header className="InProgress-header">
                     <h1>
-                        ToDo
+                        In Progress
                     </h1>
                 </header>
             </div>

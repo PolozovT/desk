@@ -1,0 +1,12 @@
+.InProgress {
+    text-align: center;
+    width: 30%;
+}
+
+.InProgress-header {
+    background-color: #282c34;
+    min-height: 20px;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
