@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c00;
 }
 
 code {
@@ -13,16 +14,36 @@ code {
     monospace;
 }
 
-.titles {
-  display: block;
-  width: 100%;
-  height: 300px;
-  margin-right: auto;
-  margin-left: auto;
-
+.titles{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-gap: 2vw;
 }
 
-.title {
-  display: block;
-  float: left;
+.titles > div {
+  padding: 1em;
+}
+
+#1 {
+  background-color: #282c34;
+  min-height: 20px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#2 {
+  background-color: #282c34;
+  min-height: 20px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#3 {
+  background-color: #282c34;
+  min-height: 20px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }

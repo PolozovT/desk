@@ -12,6 +12,10 @@ class App extends Component {
                     <div>
                         Список сделанного...
                     </div>
+                    <input type="text" value={"write..."} />
+                    <ul>
+                        <li></li>
+                    </ul>
                 </header>
             </div>
         );

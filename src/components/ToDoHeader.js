@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import '../styles/InProgress.css';
+import '../styles/ToDo.css';
 
-class App extends Component {
+class ToDoHeader extends Component {
     render() {
         return (
-            <div className="InProgress">
-                <header className="InProgress-header">
+            <div className="ToDo">
+                <header className="ToDo-header">
                     <h1>
-                        In Progress
+                        ToDo
                     </h1>
                     <div>
-                        Дела в процессе...
+                        План дел...
                     </div>
                     <input type="text" value={"write..."} />
                     <ul>
@@ -22,4 +22,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default ToDoHeader;

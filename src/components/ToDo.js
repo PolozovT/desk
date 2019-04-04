@@ -9,7 +9,13 @@ class App extends Component {
                     <h1>
                         ToDo
                     </h1>
-                    <div>План дел...</div>
+                    <div>
+                        План дел...
+                    </div>
+                    <input type="text" value={"write..."} />
+                    <ul>
+                        <li></li>
+                    </ul>
                 </header>
             </div>
         );
