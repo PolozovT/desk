@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../styles/ToDo.css';
+import '../styles/Finished.css';
 
 class App extends Component {
     render() {
         return (
-            <div className="ToDo">
-                <input type="text" />
+            <div className="Finished">
+            <input type="text"/>
                 <ul>
                     <li></li>
                 </ul>

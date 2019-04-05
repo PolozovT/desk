@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import '../styles/ToDo.css';
+import React from 'react';
+import '../styles/ToDoHeader.css';
 
-class ToDoHeader extends Component {
-    render() {
+function ToDoHeader(){
         return (
             <div className="ToDo">
                 <header className="ToDo-header">
@@ -12,14 +11,9 @@ class ToDoHeader extends Component {
                     <div>
                         План дел...
                     </div>
-                    <input type="text" value={"write..."} />
-                    <ul>
-                        <li></li>
-                    </ul>
                 </header>
             </div>
         );
-    }
 }
 
 export default ToDoHeader;

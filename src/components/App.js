@@ -1,50 +1,33 @@
 import React, { Component } from 'react';
 import Header from "./Header";
-import ToDoItem from "./ToDoItem"
-import Footer from "./Footer"
-import todosData from "./todosData"
-import ToDoHeader from "./ToDoHeader";
-//import elems from './elems'
+import ToDoHeader from "./ToDoHeader"
+import InProgressHeader from "./InProgressHeader"
+import FinishedHeader from "./FinishedHeader"
+import "../styles/App.css"
+import ToDo from "./ToDo"
+import InProgress from "./InProgress"
+import Finished from "./Finished"
 
-class App extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            todos:todosData
-        }
-        this.handleChange = this.handleChange.bind(this)
-    }
-
-    handleChange(id) {
-        this.setState(prevState => {
-            const updatedTodos = prevState.todos.map(todo => {
-                if (todo.id === id) {
-                    todo.completed = !todo.completed
-                }
-                return todo
-            })
-            return {
-                todos: updatedTodos
-            }
-        })
-    }
-
-    render() {
-        //const elemComp = this.state.todos.map(elem => <Footer key = {elem.id} description = {elem.description} />)
-
-        const todoItems = this.state.todos.map(item => <ToDoItem key={item.id} item={item} handleChange={this.handleChange}/>)
-
+function App() {
         return (
             <div>
                 <Header/>
-                <ToDoHeader/>
-                <InProgressHeader/>
-                <FinishedHeader/>
-
-                <!--<Footer/>-->
+                <div className  ="headers">
+                    <div className="1">
+                        <ToDoHeader/>
+                        <ToDo/>
+                    </div>
+                    <div className="2">
+                        <InProgressHeader/>
+                        <InProgress/>
+                    </div>
+                    <div className="3">
+                        <FinishedHeader/>
+                        <Finished/>
+                    </div>
+                </div>
             </div>
         )
-    }
 }
 
 export default App;
