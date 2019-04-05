@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Header.css'
 
-var holder = "Tima";
+const holder = "Tima";
 var date = new Date();
 var time = date.getHours();
 var res;

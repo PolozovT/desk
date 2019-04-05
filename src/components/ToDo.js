@@ -6,6 +6,7 @@ class App extends Component {
         return (
             <div className="ToDo">
                 <input type="text" />
+                <input type="button" value="add"/>
                 <ul>
                     <li></li>
                 </ul>
