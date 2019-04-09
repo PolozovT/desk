@@ -8,7 +8,7 @@ class ToDo extends Component {
                 <input type="text" />
                 <input type="button" value="add"/>
             </div>
-        );
+        )
     }
 }
 
