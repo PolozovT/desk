@@ -5,10 +5,7 @@ class App extends Component {
     render() {
         return (
             <div className="InProgress">
-            <input type="text"/>
-                <ul>
-                    <li></li>
-                </ul>
+                <input type="text"/>
             </div>
         );
     }

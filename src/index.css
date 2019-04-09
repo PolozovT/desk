@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c00;
+  background-color: #90EE90; /*LightGreen*/
 }
 
 code {
@@ -22,28 +22,4 @@ code {
 
 .titles > div {
   padding: 1em;
-}
-
-#1 {
-  background-color: #282c34;
-  min-height: 20px;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-#2 {
-  background-color: #282c34;
-  min-height: 20px;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-#3 {
-  background-color: #282c34;
-  min-height: 20px;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
