@@ -10,11 +10,12 @@ class ToDo extends Component {
         }
     }
 
+
     render() {
         return (
             <div className="ToDo">
-                <input type="text" />
-                <input type="button" value="add"/>
+                <input type="text" value={this.state.new}/>
+                <input type="button" value="add" onClick={this.handleClick} />
                 <button onClick={this.handleClick}>close</button>
             </div>
         )
