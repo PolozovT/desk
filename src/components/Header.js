@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Header.css'
 
-const holder = "Tima";
+const holder = "owner";
 var date = new Date();
 var time = date.getHours();
 var res;
@@ -11,7 +11,7 @@ const styles = {
 
 if (time < 12) {
   res = "morning"
-} else if (time > 12 && time < 17) {
+} else if (time > 12 && time < 19) {
   res = "afternoon";
   styles.backgroundColor = "darkblue";
 } else {

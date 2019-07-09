@@ -9,7 +9,7 @@ function FinishedHeader() {
                         Finished
                     </h1>
                     <div>
-                        Список сделанного...
+                        Список сделанного
                     </div>
                 </header>
             </div>

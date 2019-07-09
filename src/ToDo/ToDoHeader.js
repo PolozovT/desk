@@ -9,7 +9,7 @@ function ToDoHeader(){
                         ToDo
                     </h1>
                     <div>
-                        План дел...
+                        План дел
                     </div>
                 </header>
             </div>

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import Header from "./Header";
-import ToDoHeader from "./ToDoHeader"
-import InProgressHeader from "./InProgressHeader"
-import FinishedHeader from "./FinishedHeader"
-import "../styles/App.css"
-import ToDo from "./ToDo"
-import InProgress from "./InProgress"
-import Finished from "./Finished"
-import todoCases from "../ToDoCases"
-import ToDoCase from "../ToDoCase"
-import inprogressCases from "../InProgressCases"
-import InProgressCase from "../InProgressCase"
-import finishedCases from "../FinishedCases"
-import FinishedCase from "../FinishedCase"
+import Header from "./components/Header";
+import ToDoHeader from "./ToDo/ToDoHeader"
+import InProgressHeader from "./InProgress/InProgressHeader"
+import FinishedHeader from "./Finished/FinishedHeader"
+import "./styles/App.css"
+import ToDo from "./ToDo/ToDo"
+import InProgress from "./InProgress/InProgress"
+import Finished from "./Finished/Finished"
+import todoCases from "./ToDoCases"
+import ToDoCase from "./ToDoCase"
+import inprogressCases from "./InProgressCases"
+import InProgressCase from "./InProgressCase"
+import finishedCases from "./FinishedCases"
+import FinishedCase from "./FinishedCase"
 
 class App extends Component{
     constructor(){
