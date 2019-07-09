@@ -21,9 +21,9 @@ class App extends Component{
 
     render()
     {
-        const tdCases = todoCases.map( item => <ToDoCase key={item.id} item = {item}/>)
+        const tdCases = todoCases.map(item => <ToDoCase key={item.id} item = {item}/>)
         const ipCases = inprogressCases.map(item => <InProgressCase key={item.id} item={item}/>)
-        const fCases = finishedCases.map    (item => <FinishedCase key={item.id} item={item}/>)
+        const fCases = finishedCases.map(item => <FinishedCase key={item.id} item={item}/>)
 
         return (
             <div>
